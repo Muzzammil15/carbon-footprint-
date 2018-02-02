@@ -1,14 +1,29 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="background">
+	<ion-card>
+		<ion-card-header>
+			Login Form
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+		</ion-card-header>
+		<hr>
+		<ion-card-content>
+			<ion-list no-line>
+				<ion-item>
+					<ion-input input="text" placeholder="username"> </ion-input>
+				</ion-item>
+				<ion-item>
+					<ion-input type="password" placeholder="password"> </ion-input>
+				</ion-item>
+<hr>
+			<a> Forgot username or password?</a>
+			<button ion-button block outline color ="light"> </button>
+			<p> OR </p>
+			<button ion-button block color="facebook"> 
+				<ion-icon name="logo-facebook"> </ion-icon> Login with facebook
+			</button>
+
+	</ion-list>
+		</ion-card-content>
+	</ion-card>
+
+	<button ion-button clear full color="light"> Don't have any account? Sign up </button>
 </ion-content>
