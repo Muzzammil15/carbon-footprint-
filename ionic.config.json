@@ -1,0 +1,8 @@
+{
+  "name": "carbon-footprint",
+  "app_id": "9623d56a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
